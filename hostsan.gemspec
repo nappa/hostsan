@@ -12,6 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""
 
+  gem.add_dependency "slop", "~> 3.4.3"
   gem.add_development_dependency 'test-unit', "~> 2.5.4"
 
   gem.files         = `git ls-files`.split($/)

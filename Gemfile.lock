@@ -1,8 +1,18 @@
+PATH
+  remote: .
+  specs:
+    hostsan (0.0.1)
+      slop (~> 3.4.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    slop (3.4.3)
+    test-unit (2.5.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  hostsan!
+  test-unit (~> 2.5.4)
